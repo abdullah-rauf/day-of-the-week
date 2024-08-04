@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(red, grey);
+
+}
+
+.container {
+    border: 3px solid black;
+    padding: 30px;
+    animation: lineIn 1s grey;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+
+}
+
+#weekday {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#quote { 
+    font-size: 3rem;
+    font-family: serif;
+}
